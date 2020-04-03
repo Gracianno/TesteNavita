@@ -36,7 +36,7 @@ Rota marca do tipo Get, é responsável por listar todas as marcas do sistema. �
 
 Rota marca/{id} do tipo Get, é responsável por listar uma marca pelo seu id. É necessário passar um token de autenticação valido para acessar essa rota.
 
-<img src="Anotação 2020-04-03 132319.png">
+<img src="prints_readme/Anotação 2020-04-03 132319.png">
 
 Rota marca/{id} do tipo Put, é responsável por alterar uma marca no sistema. É necessário passar um token de autenticação valido para acessar essa rota.
 
