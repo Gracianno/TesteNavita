@@ -6,7 +6,7 @@ O projeto foi desenvolvido utilizando o Asp Net Core na versão 2.2.0, tambem fo
 
 O sistema foi dividido em três camadas para dividir as responsabilidades e facilitar o entendimento da arquitetura do projeto. O projeto "TesteNavita.Domain" é responsável pelas nossas entidades e pelas nossas regras de negócios. O projeto "TesteNavita.Repository" é responsável pelas persistências no Banco de Dados. O projeto "TesteNavita.WebApi" é o nosso middleware, todas as nossas requisições começam aqui e terminam inicialmente aqui.
 
-Para autenticação foi utilizado o Identity Framework da Microsoft, para gerar os Tokens foi utilizado o JWT. A configuração pode ser encontrado no arquivo Startup.cs do projeto TesteNavita.WebApi. As entidades utilizadas podem ser encontradas no projeto TesteNavita.Domain na pasta "Entity". Todas as rotas exigem autenticação, menos a "Register" e a "Login".
+Para autenticação foi utilizado o Identity Framework da Microsoft, para gerar os Tokens foi utilizado o JWT. A configuração pode ser encontrado no arquivo Startup.cs do projeto TesteNavita.WebApi. As entidades utilizadas podem ser encontradas no projeto TesteNavita.Domain na pasta "Entity". Todas as rotas exigem autenticação, menos a "Register" e a "Login". O TOKEN deve ser passado atraves do "HEADER".
 
 Rotas:
 
