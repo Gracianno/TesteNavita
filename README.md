@@ -11,39 +11,51 @@ Para autenticação foi utilizado o Identity Framework da Microsoft, para gerar 
 Rotas:
 
 Rota user/Register do tipo Post, é responsável por registrar um novo usuário no sistema.
+
 <img src="prints_readme/Anotação 2020-04-03 123914.png">
 
 Rota user/Login do tipo Post, é responsável por autenticar um usuário no sistema, a sistema irá devolver um token que deve ser utilizado nas requisiçoes protegidas do sistema.
+
 <img src="Anotação 2020-04-03 124030.png">
 
 Rota user do tipo Get, é responsável listar todos os usuários do sistema. É necessário passar um token de autenticação valido para acessar essa rota.
+
 <img src="Anotação 2020-04-03 124231.png">
 
 Rota user/Delete/{id} do tipo Delete, é responsável por apagar novo usuário no sistema. É necessário passar um token de autenticação valido para acessar essa rota.
+
 <img src="Anotação 2020-04-03 124451.png">
 
 Rota marca do tipo Post, é responsável por registrar um nova marca no sistema. É necessário passar um token de autenticação valido para acessar essa rota.
+
 <img src="Anotação 2020-04-03 125502.png">
 
 Rota marca do tipo Get, é responsável por listar todas as marcas do sistema. É necessário passar um token de autenticação valido para acessar essa rota.
+
 <img src="Anotação 2020-04-03 130138.png">
 
 Rota marca/{id} do tipo Get, é responsável por listar uma marca pelo seu id. É necessário passar um token de autenticação valido para acessar essa rota.
+
 <img src="Anotação 2020-04-03 132319.png">
 
 Rota marca/{id} do tipo Put, é responsável por alterar uma marca no sistema. É necessário passar um token de autenticação valido para acessar essa rota.
+
 <img src="Anotação 2020-04-03 130457.png">
 
 Rota marca{id} do tipo Delete, é responsável por apagar uma marca no sistema. É necessário passar um token de autenticação valido para acessar essa rota.
+
 <img src="Anotação 2020-04-03 131822.png">
 
 Rota marca/{id}/patrimonios do tipo Get, é responsável por listar todos patrimonios de uma marca. É necessário passar um token de autenticação valido para acessar essa rota.
+
 <img src="Anotação 2020-04-03 130138.png">
 
 Rota patrimonio do tipo Post, é responsável por registrar um novo patrimonio. É necessário passar um token de autenticação valido para acessar essa rota.
+
 <img src="Anotação 2020-04-03 131059.png">
 
 Rota patrimonio do tipo Get, é responsável por listar todos os patrimonios. É necessário passar um token de autenticação valido para acessar essa rota.
+
 <img src="Anotação 2020-04-03 131734.png">
 
 Rota patrimonio/{id} do tipo get, é responsável por listar um patrimonio por id. É necessário passar um token de autenticação valido para acessar essa rota.
