@@ -1,5 +1,6 @@
 Configuração Inicial: Para rodar o sistema é necessario ao abrir o projeto pela primeira vez definir o projeto TesteNavita.WebApi como projeto padrao. depois é necessario criar nossa Base no Banco de Dados. Para isso primeiro altere o arquivo appsettings.json que fica na raiz do projeto TesteNavita.WebApi, em ConnectionStrings->DefaultConnection, altere os dados para para as suas configurações. Após isso abra o console gerenciador de pacotes NuGet, defina o projeto padrao para TesteNavita.Repository e coloque o comando "update-database" conforme imagem abaixo e aguarde o base ser gerado automaticamente, depois disso você estará pronto utilizar a API.
- 
+
+![](prints_readme/Anotação 2020-04-03 123604.png)
 
 O projeto foi desenvolvido utilizando o Asp Net Core na versão 2.2.0, tambem foi utilizado o Entity Framework Core na versão 2.2  e o Auto Mapper da Microsoft versão 4.0.1.
 
