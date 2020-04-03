@@ -60,6 +60,8 @@ Rota patrimonio do tipo Get, é responsável por listar todos os patrimonios. É
 
 Rota patrimonio/{id} do tipo get, é responsável por listar um patrimonio por id. É necessário passar um token de autenticação valido para acessar essa rota.
 
+<img src="prints_readme/Anotação 2020-04-03 151415.png">
+
 Rota patrimonio/{id} do tipo Put, é responsável por alterar um patrimonio por id. É necessário passar um token de autenticação valido para acessar essa rota.
 
 <img src="prints_readme/Anotação 2020-04-03 150016.png">
