@@ -48,7 +48,7 @@ Rota marca{id} do tipo Delete, é responsável por apagar uma marca no sistema. 
 
 Rota marca/{id}/patrimonios do tipo Get, é responsável por listar todos patrimonios de uma marca. É necessário passar um token de autenticação valido para acessar essa rota.
 
-<img src="prints_readme/prints_readme/Anotação 2020-04-03 131734.png">
+<img src="prints_readme/Anotação 2020-04-03 131734.png">
 
 Rota patrimonio do tipo Post, é responsável por registrar um novo patrimonio. É necessário passar um token de autenticação valido para acessar essa rota.
 
